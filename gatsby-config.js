@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `Carter's Website`,
+        description: `Carter Lack's blog and portfolio.`,
+    author: `Carter Lack | carterlack.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,6 +14,14 @@ module.exports = {
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-emotion`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/ // See below to configure properly
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
