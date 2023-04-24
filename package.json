@@ -4,6 +4,9 @@
   "description": "My portfolio and blog!",
   "version": "0.1.0",
   "author": "Carter Lack | carterlack.com",
+    "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
